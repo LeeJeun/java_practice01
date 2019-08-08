@@ -4,7 +4,7 @@ public class Prob5 {
 	public static void main (String args[]) {
 		for(int i=1; i<=99; i++) {
 			String number = Integer.toString(i);
-			String crap = "짝짝짝짝짝";
+			String clap = "짝짝짝짝짝";
 			int count = 0;
 
 			if(number.contains("3") || number.contains("6") || number.contains("9")) {
@@ -15,7 +15,7 @@ public class Prob5 {
 						count += 1;
 					}
 				}
-				System.out.println(number +" "+ crap.substring(0, count));
+				System.out.println(number +" "+ clap.substring(0, count));
 			}
 		}
 	}
